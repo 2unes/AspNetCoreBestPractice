@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreBestPractice", "AspNetCoreBestPractice\AspNetCoreBestPractice.csproj", "{C0CDFB1B-0716-4194-AE5B-6146E9E742EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{905B1477-22D6-4CE4-9762-DA98EA0A9384}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.Dapper", "Repositories.Dapper\Repositories.Dapper.csproj", "{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5716F05D-7825-4E73-A0E8-2317CB0189CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CDFB1B-0716-4194-AE5B-6146E9E742EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CDFB1B-0716-4194-AE5B-6146E9E742EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CDFB1B-0716-4194-AE5B-6146E9E742EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CDFB1B-0716-4194-AE5B-6146E9E742EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905B1477-22D6-4CE4-9762-DA98EA0A9384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905B1477-22D6-4CE4-9762-DA98EA0A9384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905B1477-22D6-4CE4-9762-DA98EA0A9384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905B1477-22D6-4CE4-9762-DA98EA0A9384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65FFAA0A-A590-4FD0-9E52-EDC8E7A18AA3} = {5716F05D-7825-4E73-A0E8-2317CB0189CC}
+	EndGlobalSection
+EndGlobal

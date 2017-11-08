@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="js/signalr-client-1.0.0-alpha2-final.min.js"></script>
+<script>
+let connection = new signalR.HubConnection('/eventhub');
+
+connection.on('receiveEvent', data => {
+    console.log(data);
+});
+
+connection.start()
+          .then(() => connection.invoke('connect'));
+</script>
