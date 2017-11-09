@@ -1,28 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shared;
+using Shared.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace AspNetCoreBestPractice.Controllers
 {
-    public class EventController : Controller
+    public class EventController : BaseController<IEventRepository, CalendarEvent>
     {
-        readonly IEventRepository _eventRepository;
-       
-        public EventController(IEventRepository eventRepository)
+        public EventController(IEventRepository repo) : base(repo)
         {
-            _eventRepository = eventRepository;
         }
-
-        // GET: /<controller>/
-        public IActionResult Index()
-        {
-            return Json(new { success = true });
-        }
-
-        public IActionResult List(){
-            var events = _eventRepository.FindAll();
-            return Json(events);
-        }
+     
     }
 }

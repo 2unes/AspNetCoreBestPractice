@@ -13,6 +13,8 @@
   <ItemGroup>
     <Folder Include="wwwroot\scripts\" />
     <Folder Include="Hubs\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Views\Event\" />
   </ItemGroup>
 
   <ItemGroup>
